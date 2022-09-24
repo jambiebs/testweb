@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>responsive design</title>
+
   <style>
+
     div.gallery {
       border: 1px solid #ccc;
     }
@@ -31,17 +37,10 @@
       width: 24.99999%;
     }
 
-    /* @media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-} */
-    @media only screen and 
-      (max-width: 1200px) {
-        .responsive {
-          width: 50%;
-        }
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 50%;
+        } }
   </style>
 </head>
 
@@ -93,10 +92,8 @@
   <div style="padding:6px;">
     <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px
       wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side.
-      For screens smaller than 500px, the images will stack vertically (100%).</p>
+      For screens smaller than 500px, the images will stack vertically (100%)</p>
     <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
   </div>
-
 </body>
-
 </html>
